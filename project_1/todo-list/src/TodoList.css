@@ -1,0 +1,43 @@
+.todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 0;
+  padding: 1rem;
+  background: white;
+  border-radius: 0.4rem;
+}
+.text {
+  font-weight: bolder;
+}
+.text:hover {
+  cursor: pointer;
+}
+.remove {
+  cursor: pointer;
+}
+form {
+  display: flex;
+  justify-content: space-between;
+  /* background-color: white; */
+  padding: 1rem 0;
+}
+form input {
+  width: 100%;
+  line-height: 3rem;
+  margin-right: 1rem;
+}
+form .button-cta {
+  -webkit-appearance: none;
+  background: #ea6e27;
+  border-radius: 4px;
+  color: #FFF;
+  cursor: pointer;
+  font-family: "DM Sans";
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 8px 16px;
+  border: none;
+  text-align: center;
+}
